@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // Uncomment and adjust basePath if deploying to a project page (e.g., username.github.io/repo-name)
-  // basePath: '/product-showcase',
+  // basePath is required for GitHub Pages project page deployment
+  basePath: '/product-showcase',
 };
 
 export default nextConfig;
